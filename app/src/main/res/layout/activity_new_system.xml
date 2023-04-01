@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".newSystem">
 
 
 
@@ -24,6 +24,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+
+
+
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
@@ -36,7 +39,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.491" />
-
         <ImageView
             android:layout_width="150dp"
             android:layout_height="wrap_content"
@@ -47,7 +49,6 @@
             app:layout_constraintStart_toEndOf="@+id/textView"
             app:layout_constraintTop_toTopOf="parent" />
 
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -57,9 +58,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="According to the Old GPA System"
+            android:text="According to the New GPA System"
             android:textColor="@color/green2"
             />
+
+
+
 
     </LinearLayout>
 
@@ -77,7 +81,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.54">
+        app:layout_constraintVertical_bias="0.537">
 
         <LinearLayout
             android:id="@+id/constraintLayout4"
@@ -445,9 +449,10 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout3"
         app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="@+id/linearLayout2"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-        app:layout_constraintVertical_bias="0.282">
+        app:layout_constraintVertical_bias="0.183">
 
         <Button
             android:layout_width="wrap_content"
@@ -477,23 +482,25 @@
 
     </LinearLayout>
 
+
     <LinearLayout
         android:layout_width="230dp"
-        android:layout_height="wrap_content"
+        android:layout_height="46dp"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout3"
         app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="@+id/linearLayout"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.176">
 
         <Button
             android:layout_width="230dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/green2"
             android:drawableLeft="@drawable/baseline_clear_all_24"
-            android:text="Clear All"/>
+            android:text="Clear All" />
 
     </LinearLayout>
-
 
     <LinearLayout
         android:id="@+id/constraintLayout3"
